@@ -1,5 +1,12 @@
 # Aware of Your Stress: A Stress Detection Using Wearable Watch
 
-The data used in this project is the raw data of participants ID11 to ID35. The data and the descriptions can be found at the following link: https://github.com/italha-d/Stress-Predict-Dataset.git. The processed data is in 'StressDetection.csv' file. The codes used to visualize and analyze the data can be found in the Jupyter Notebook. The codes are divided into four sections. Section 1 contains codes for visualizations. Section 2 has functions to create lag variables and split the data. Section 3 is the analysis part. It includes codes for Random Forest, Support Vector Machine, K-Nearest Neighbors, and Ridge Logistic Regression. Section 4 is the cross-validation part based on time-series splits.
+This project focuses on predicting stress levels using physiological data collected from a wearable watch. The goal is to assess the predictive accuracy of machine learning models and evaluate whether the device is suitable for stress detection in patients.
 
+## Project Overview
+
+- **Dataset: The raw data of participants ID11 to ID35 (25 participants). The data and the detailed descriptions can be found at the following link: https://github.com/italha-d/Stress-Predict-Dataset.git, and the processed data is in 'StressDetection.csv' file. The features in this project include heart rate (HR), blood volume pressure (BVP), accelerometer (ACC), skin conductance (EDA), inter-beat interval (IBI), and skin temperature (TEMP).
+
+
+
+ 
 **Libraries used in the project:** Pandas, Numpy, Matplotlib, Seaborn, Scikitlearn
