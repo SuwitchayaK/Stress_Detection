@@ -4,7 +4,18 @@ This project focuses on predicting stress levels using physiological data collec
 
 ## Project Overview
 
-- **Dataset: The raw data of participants ID11 to ID35 (25 participants). The data and the detailed descriptions can be found at the following link: https://github.com/italha-d/Stress-Predict-Dataset.git, and the processed data is in 'StressDetection.csv' file. The features in this project include heart rate (HR), blood volume pressure (BVP), accelerometer (ACC), skin conductance (EDA), inter-beat interval (IBI), and skin temperature (TEMP).
+- **Dataset:** The raw data of participants ID11 to ID35 (25 participants). The data and the detailed descriptions can be found at the following link: https://github.com/italha-d/Stress-Predict-Dataset.git, and the processed data is in 'StressDetection.csv' file. The features in this project include heart rate (HR), blood volume pressure (BVP), accelerometer (ACC), skin conductance (EDA), inter-beat interval (IBI), and skin temperature (TEMP).
+- **Goal:** Build machine learning models that predict stress vs non-stress states.
+- **Motivation:** Early and accurate stress detection can help patients manage their mental health.
+
+## Methods and Tools
+- Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)
+- Machine Learning Models (Random Forest, Support Vector Machine, K-Nearest Neighbors, Ridge Logistic Regression)
+- Data Preprocessing (Interpolation, Normalization)
+- Evaluation Metrics (Accuracy, F1-Score, False Negative Rate)
+
+## Steps
+
 
 
 
