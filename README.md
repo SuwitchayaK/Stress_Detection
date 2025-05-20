@@ -16,8 +16,23 @@ This project focuses on predicting stress levels using physiological data collec
 
 ## Steps
 
+**1. Data Cleaning and Preprocessing:**
+- Handle missing values.
+- Encode categorical variables.
+- Normalize numerical features.
 
+**2. Feature Selection:**
+- Select relevant physiological features for prediction.
 
+**3. Model Training:**
+- Train multiple machine learning models.
+- Perform train-test split to validate models.
 
- 
-**Libraries used in the project:** Pandas, Numpy, Matplotlib, Seaborn, Scikitlearn
+**4. Model Evaluation:**
+- Compare model performance using accuracy and confusion matrices.
+- Analyze classification reports to identify best-performing model.
+
+## Results
+
+- Random Forest model achieved the highest classification accuracy among tested models.
+- Key indicators for stress detection included heart rate variability and skin conductance.
